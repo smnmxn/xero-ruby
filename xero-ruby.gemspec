@@ -26,7 +26,7 @@ Gem::Specification.new do |s|
   s.license     = "Unlicense"
   s.required_ruby_version = ">= 2.3"
 
-  s.add_runtime_dependency 'faraday', '>= 2.0', '< 3.0'
+  s.add_runtime_dependency 'faraday', '>= 0.8', '< 3.0'
   s.add_runtime_dependency 'json', '>= 1.1.0', '> 3.0'
   s.add_runtime_dependency 'json-jwt', '~> 1.5', '>= 1.5.2'
   s.add_development_dependency 'rspec', '~> 3.6', '>= 3.6.0'
